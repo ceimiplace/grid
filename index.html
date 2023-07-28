@@ -8,7 +8,24 @@
   <body>
     <div class="container">
       <div class="test key-partners">Key partners</div>
-      <div class="test key-activities">Key Activities</div>
+      <div class="test key-activities">
+        Key Activities
+        <p>This is for overflow</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+        <p>Test test</p>
+      </div>
       <div class="test key-resources">Key resources</div>
       <div class="test value-propositions">Key Propositions</div>
       <div class="test customer-rel">Customers Relations</div>
@@ -27,6 +44,10 @@
         border: 1px solid red;
         height: 100vh;
         display: grid;
+      }
+      .container > * {
+        word-break: break-word;
+        overflow-x: scroll;
       }
       .test {
         border: 1px solid black;
